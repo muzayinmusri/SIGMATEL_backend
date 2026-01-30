@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Log;
-use Carbon\Carbon;
+use Carbon\Carbon;//
 
 class data_potensi extends Controller
 {
