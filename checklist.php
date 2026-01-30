@@ -9,7 +9,7 @@ use Carbon\Carbon;
 class checklist extends Controller
 {
     protected $connection = 'mysql2';
-    protected $connection2 = 'mysql3';
+    protected $connection2 = 'mysql3';//
 
     private function getPetugasName($nik)
     {
