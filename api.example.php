@@ -5,13 +5,13 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Route;
 use Carbon\Carbon;
 
-//Controler Trial
-use App\Http\Controllers\ttc_paniki_controllers_test\data_potensi as DataPotensi2Paniki;
-use App\Http\Controllers\ttc_paniki_controllers_test\checklist as CheckListPaniki2;
-use App\Http\Controllers\ttc_paniki_controllers_test\summary_pue as SummaryPuePaniki;
+
+use App\Http\Controllers\ttc_paniki_controllers\data_potensi as DataPotensi2Paniki;
+use App\Http\Controllers\ttc_paniki_controllers\checklist as CheckListPaniki2;
+use App\Http\Controllers\ttc_paniki_controllers\summary_pue as SummaryPuePaniki;
 
 
-/////////////////////////////////////////////////////////////////////////////Paniki/////////////////////////////////////////////////////////////////////////////////////////
+
 Route::prefix('ttc_paniki')->group(function () {
     
     Route::prefix('data_potensi2')->group(function () {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ttc_paniki_controllers_test;
+namespace App\Http\Controllers\ttc_paniki_controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
