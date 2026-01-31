@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Route;
 use Carbon\Carbon;
 
-
+///zeyn ganteng
 use App\Http\Controllers\ttc_paniki_controllers\data_potensi as DataPotensi2Paniki;
 use App\Http\Controllers\ttc_paniki_controllers\checklist as CheckListPaniki2;
 use App\Http\Controllers\ttc_paniki_controllers\summary_pue as SummaryPuePaniki;
